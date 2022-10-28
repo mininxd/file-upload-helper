@@ -6,13 +6,15 @@ var app = express();
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
+
     //load index.ejs
     res.render('index');
 });
 
 var storage = multer.diskStorage({
     destination: function (req, file, callback) {
-        //nama folder upload        
+                 
+                    //nama folder upload        
         var dir = './FILE_UPLOAD';
         if (!fs.existsSync(dir)){
             fs.mkdirSync(dir);
