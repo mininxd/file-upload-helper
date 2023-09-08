@@ -39,4 +39,4 @@ app.post('/upload', function (req, res, next) {
 })
 
 //aplikasi berjalan di localhost:3000 (bisa diubah sesuai selera)
-app.listen(3000);
+app.listen(80);
