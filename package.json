@@ -2,7 +2,7 @@
   "name": "File Upload Helper",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "upload.js",
 
   "dependencies": {
     "ejs": "^3.1.8",
